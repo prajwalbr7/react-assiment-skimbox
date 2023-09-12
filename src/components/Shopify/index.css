@@ -1,0 +1,146 @@
+.ShopifyMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-image: linear-gradient(to left, #d2f7ff, #ffffff);
+}
+.ContainerButtonPara {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px #39a3c0;
+  border-radius: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 250px;
+}
+.PayMonthButton {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
+.PayYearlyPara {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+}
+.ShopifyRateContainer {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.SubContainers {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+.Container-color {
+  border: solid 2px #39a3c0;
+}
+.MostPopularContainer {
+  position: relative;
+  top: -23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.MostPopularHeading {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+  background-image: linear-gradient(to left, #37ced5, #39b3e6);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.BasicHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.8;
+
+  margin-top: 0px;
+}
+.BasicPara {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+.BasicPara2 {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.RateHeading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  align-items: flex-end;
+}
+.RatingSpan {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.Months3Para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 3;
+  width: 100%;
+  text-align: center;
+  background-color: #e9fce9;
+}
+.top-container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.BottomContainer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.ul-styling {
+  padding: 0px;
+  list-style-type: none;
+}
+.list-style {
+  display: flex;
+  align-items: center;
+}
+.list-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
+  line-height: 1;
+}
+.Btn-style {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.margin {
+  padding-top: 40px;
+}
+@media screen and (max-width: 576px) {
+  .ShopifyMainContainer {
+    display: none;
+  }
+}

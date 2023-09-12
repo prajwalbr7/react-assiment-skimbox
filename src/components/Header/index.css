@@ -1,0 +1,106 @@
+.HeaderMainContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+.LeftPartContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.LoginContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+.Header {
+  width: 130px;
+  height: 40px;
+}
+.selectContainer {
+  height: 30px;
+  width: 100px;
+  font-size: 17px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  outline: none;
+}
+.PricingPara {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+}
+.HeaderButton {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+  height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
+
+.MobileHeaderMainContainer {
+  display: none;
+}
+.RowToItems {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .HeaderMainContainer {
+    display: none;
+  }
+
+  .MobileHeaderMainContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Container2trail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .trialPara {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .Header {
+    width: 130px;
+    height: 40px;
+  }
+  .RowToItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ItemStyle {
+    text-align: center;
+    border: solid 1px #add8e6;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+  }
+  .ItemHeading-style {
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 600;
+  }
+}
